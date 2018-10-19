@@ -25,7 +25,7 @@ class App extends Component {
             &nbsp;|&nbsp;
             <NavLink to="/jokes">Jokes</NavLink>
             &nbsp;|&nbsp;
-            <NavLink to="/register">Sign Up</NavLink>
+            <NavLink to="/signup">Sign Up</NavLink>
             &nbsp;|&nbsp;
             <NavLink to="/signin">Sign In</NavLink>
             &nbsp;|&nbsp;
@@ -35,7 +35,7 @@ class App extends Component {
           <main>
             <Route path="/" component={Home} exact />
             <Route path="/jokes" component={Jokes} />
-            <Route path="/register" component={Signup} />
+            <Route path="/signup" component={Signup} />
             <Route path="/signin" component={Signin} />
           </main>
         </header>
