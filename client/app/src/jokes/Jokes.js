@@ -11,8 +11,8 @@ class Jokes extends Component {
                 <ul className="JokeList">
                     {this.state.users.map(user => (
                         <div className="indiv-joke">
-                            <ul className="joke" key={user.id}>{user.setup}</ul>
-                            <ul className="punchline" key={user.id}>{user.punchline}</ul>
+                            <div className="joke" key={user.id}>{user.setup}</div>
+                            <div className="punchline" key={user.id}>{user.punchline}</div>
                             <br></br>
                         </div>
                     ))}
