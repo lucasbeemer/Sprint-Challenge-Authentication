@@ -38,11 +38,6 @@ class Jokes extends Component {
                 this.props.history.push('/');
             })
     };
-
-    logout = event => {
-        localStorage.removeItem('jwt');
-        this.props.history.push('/');
-    }
 }
 
 
